@@ -3,4 +3,4 @@
     hosts:
       localhost:
         ansible_host: heuristic_chaum
-	ansible_connection: local
+        ansible_connection: local
