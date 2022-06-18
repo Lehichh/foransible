@@ -3,7 +3,7 @@
     hosts: all
     gather_facts: false
     tasks:
-      - xname: Print OS
+      - name: Print OS
         debug:
           msg: "{{ ansible_distribution }}"
       - name: Print fact
