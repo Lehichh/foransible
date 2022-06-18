@@ -1,6 +1,7 @@
 ---
   - name: Print os facts
     hosts: all
+    gather_facts: false
     tasks:
       - name: Print OS
         debug:
